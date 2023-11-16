@@ -24,10 +24,9 @@ namespace DataAccess.Concrete.EntityFramework
 
             }
         }
-
         public void Delete(Product entity)
         {
-            using (NorthwindContext context = new NorthwindContext())
+            using (NorthwindContext context = new NorthwindContext()) // Değişken
             {
                 var deletedEntity = context.Entry(entity);
                 deletedEntity.State = EntityState.Deleted;

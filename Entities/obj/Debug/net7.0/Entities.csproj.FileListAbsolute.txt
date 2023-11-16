@@ -9,3 +9,18 @@ C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject\Entities\obj\Debug\net7.0\Enti
 C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject\Entities\obj\Debug\net7.0\refint\Entities.dll
 C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject\Entities\obj\Debug\net7.0\Entities.pdb
 C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject\Entities\obj\Debug\net7.0\ref\Entities.dll
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\obj\Debug\net7.0\Entities.dll
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\obj\Debug\net7.0\Entities.pdb
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\bin\Debug\net7.0\Entities.dll
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\bin\Debug\net7.0\Entities.pdb
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\bin\Debug\net7.0\Core.dll
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\bin\Debug\net7.0\Core.pdb
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\obj\Debug\net7.0\Entities.csproj.CopyComplete
+C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Entities\obj\Debug\net7.0\ref\Entities.dll

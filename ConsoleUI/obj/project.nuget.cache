@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dgvA2llDoRgJyTwk4+2wumggdwcoVE71nyUpoNkV4n5Kz6SHCuOzk0TcyR4Gm2i6rZv7Q9mxmboPf5CyLuqqaQ==",
+  "dgSpecHash": "LPUorzzOnvg5pBPeQrXzNQIoOIM6YA9C/ogex+N73vuZvFFInbL3s8nGoK4Re9IWQPwwIkpJ5luyIr266bUJ2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ALPER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ALPER\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

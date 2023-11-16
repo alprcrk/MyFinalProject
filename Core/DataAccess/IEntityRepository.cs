@@ -1,5 +1,5 @@
-﻿using Entities.Abstract;
-using Entities.Concrete;
+﻿
+using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,14 +7,15 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess
 {
     // Genel IEntityRepository arayüzü, temel CRUD operasyonlarını içerir.
     // Bu operasyonlar, genellikle veritabanı işlemlerini yöneten sınıflar tarafından uygulanır.
     // generic constraint
     // class : referans tip
     // IEntity : IEntity olabilir vey IEntity implemente eden bir nesne olabilir
-    public interface IEntityRepository<T> where T : class, IEntity
+    // Core katmanı diğer katmanları referans almaz alırsa alırsa sen o referansa bağlısın demek
+    public interface IEntityRepository<T> where T : class, IEntity, new()
     {
         // Belirli bir filtreye sahip tüm öğeleri getiren metod
         // Filtre, isteğe bağlı olarak sağlanabilir; filtre sağlanmazsa tüm öğeleri getirir.
