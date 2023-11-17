@@ -2,19 +2,25 @@
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
+using System;
 
 internal class Program
 {
     static void Main(string[] args)
     {
-        //ProductTest();
-        //Ioc
-        //CategoryTest();
+        // Ürün testi yapılacaksa
+        // ProductTest();
+
+        // Kategori testi yapılacaksa
+        // CategoryTest();
     }
 
     private static void CategoryTest()
     {
+        // EfCategoryDal, Entity Framework kullanarak kategori verilerine erişim sağlayan bir sınıftır.
         CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+
+        // Tüm kategorileri getirme işlemi
         foreach (var category in categoryManager.GetAll())
         {
             Console.WriteLine(category.CategoryName);
@@ -23,15 +29,26 @@ internal class Program
 
     private static void ProductTest()
     {
-        // ProductManager sınıfından bir örnek oluşturarak, veri erişim operasyonlarını yöneten bir yönetici nesnesi oluşturulur.
-        // EfProductDal, Entity Framework kullanarak veri erişim işlemlerini gerçekleştiren bir sınıftır.
+        // EfProductDal, Entity Framework kullanarak ürün verilerine erişim sağlayan bir sınıftır.
         ProductManager productManager = new ProductManager(new EfProductDal());
 
-        // ProductManager sınıfının GetAll metodu çağrılarak, tüm ürünleri getiren bir liste elde edilir.
-        foreach (var product in productManager.GetProductDetails())
+        // Ürün detaylarını getirme işlemi
+        var result = productManager.GetProductDetails();
+
+        // İşlem başarılıysa
+        if (result.Success == true)
         {
-            // Her bir ürünün adı ekrana yazdırılır.
-            Console.WriteLine(product.ProductName + "/" + product.CategoryName);
+            // Her bir ürün detayını ekrana yazdırma işlemi
+            foreach (var product in result.Data)
+            {
+                Console.WriteLine(product.ProductName + "/" + product.CategoryName);
+            }
+        }
+        // İşlem başarısızsa
+        else
+        {
+            // Hata mesajını ekrana yazdırma işlemi
+            Console.WriteLine(result.Message);
         }
     }
 }

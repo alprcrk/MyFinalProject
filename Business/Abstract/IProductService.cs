@@ -1,28 +1,40 @@
-﻿using Entities.Concrete;
+﻿using Core.Utilities.Results;
+using Entities.Concrete;
 using Entities.DTOs;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Business.Abstract
 {
-    // IProductService, ürün işlemleri için temel işlevleri tanımlayan bir arayüzdür.
     public interface IProductService
     {
-        // Tüm ürünleri getiren bir metot.
-        List<Product> GetAll();
+        // 1. Tüm ürünleri getirir.
+        //    Geri dönüş tipi: IDataResult<List<Product>>
+        IDataResult<List<Product>> GetAll();
 
-        // Belirli bir kategoriye ait ürünleri getiren bir metot.
-        // Parametre olarak kategori kimliği (id) alır.
-        List<Product> GetAllByCategoryId(int id);
+        // 2. Belirli bir kategoriye ait tüm ürünleri getirir.
+        //    Parametre: Kategori ID'si (int id)
+        //    Geri dönüş tipi: IDataResult<List<Product>>
+        IDataResult<List<Product>> GetAllByCategoryId(int id);
 
-        // Belirli bir fiyat aralığına ve birim fiyatına sahip ürünleri getiren bir metot.
-        // Parametre olarak minimum ve maksimum birim fiyat değerlerini alır.
-        List<Product> GetByUnitPrice(decimal min, decimal max);
+        // 3. Belirli bir fiyat aralığına göre ürünleri getirir.
+        //    Parametreler: Minimum fiyat (decimal min), Maksimum fiyat (decimal max)
+        //    Geri dönüş tipi: IDataResult<List<Product>>
+        IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max);
 
-        List<ProductDetailDto> GetProductDetails();
+        // 4. Ürün detaylarını içeren özel bir DTO listesini getirir.
+        //    Geri dönüş tipi: IDataResult<List<ProductDetailDto>>
+        IDataResult<List<ProductDetailDto>> GetProductDetails();
+
+        // 5. Belirli bir ürün ID'sine sahip ürünü getirir.
+        //    Parametre: Ürün ID'si (int productId)
+        //    Geri dönüş tipi: IDataResult<Product>
+        IDataResult<Product> GetById(int productId);
+
+        // 6. Yeni bir ürün ekler.
+        //    Parametre: Eklenen ürün (Product product)
+        //    Geri dönüş tipi: IResult
+        IResult Add(Product product);
     }
 }
+
 

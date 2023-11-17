@@ -9,24 +9,33 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
+    // Kategori işlemlerini gerçekleştiren CategoryManager sınıfı
     public class CategoryManager : ICategoryService
     {
-        ICategoryDal _categoryDal;
+        // Kategori verilerine erişimi sağlayan veri erişim sınıfı
+        private ICategoryDal _categoryDal;
 
+        // Dependency injection kullanılarak bir ICategoryDal implementasyonu enjekte edilir
         public CategoryManager(ICategoryDal categoryDal)
         {
+            // Oluşturulan CategoryManager sınıfının bir örneği oluşturulurken, bir ICategoryDal implementasyonu alınır.
+            // Bu sayede CategoryManager sınıfı, veritabanı işlemlerini gerçekleştirebileceği bir veri erişim sınıfına sahip olur.
             _categoryDal = categoryDal;
         }
 
+        // Tüm kategorileri getirme işlemi
         public List<Category> GetAll()
         {
-            //iş kodları
+            // Veritabanından tüm kategorileri çekme işlemi
+            // _categoryDal.GetAll() metodu, ICategoryDal implementasyonuna bağlı olarak, kategorilerin veritabanından çekilmesini sağlar.
             return _categoryDal.GetAll();
         }
 
-        //select  * from categories where categoryId = 3
+        // Belirli bir kategori ID'sine sahip kategoriyi getirme işlemi
         public Category GetById(int categoryId)
         {
+            // Veritabanından belirli bir kategori ID'sine sahip kategoriyi çekme işlemi
+            // _categoryDal.Get() metodu, ICategoryDal implementasyonuna bağlı olarak, belirli bir kategori ID'sine sahip kategorinin veritabanından çekilmesini sağlar.
             return _categoryDal.Get(c => c.CategoryId == categoryId);
         }
     }
