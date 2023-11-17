@@ -9,10 +9,10 @@ internal class Program
     static void Main(string[] args)
     {
         // Ürün testi yapılacaksa
-        // ProductTest();
+        //ProductTest();
 
         // Kategori testi yapılacaksa
-        // CategoryTest();
+        CategoryTest();
     }
 
     private static void CategoryTest()
