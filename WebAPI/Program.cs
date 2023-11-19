@@ -1,18 +1,24 @@
+using Business.Abstract;
+using Business.Concrete;
+using DataAccess.Abstract;
+using DataAccess.Concrete.EntityFramework;
 using WebAPI;
 
 var builder = WebApplication.CreateBuilder(args);
-var startup = new Startup(builder.Configuration); // My custom startup class.
 
-startup.ConfigureServices(builder.Services);  // Add services to the container.
+
 // Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+// AOP
+// Autofac, Ninject, CastleWindsor, StructureMap, LighInject, DryInject --> IoC Container 
+builder.Services.AddSingleton<IProductService, ProductManager>(); //
+builder.Services.AddSingleton<IProductDal, EfProductDal>();
 
 var app = builder.Build();
-startup.Configure(app, app.Environment); // Configure the HTTP request pipeline.
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
