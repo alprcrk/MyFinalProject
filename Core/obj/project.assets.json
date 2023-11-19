@@ -2624,11 +2624,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\ALPER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Core\\obj\\",
+      "outputPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

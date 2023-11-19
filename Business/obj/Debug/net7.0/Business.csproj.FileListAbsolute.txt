@@ -34,3 +34,22 @@ C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Business
 C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Business\obj\Debug\net7.0\ref\Business.dll
 C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Business\bin\Debug\net7.0\Core.dll
 C:\Users\ALPER\OneDrive\Masaüstü\TOBETO DERSLERİM\MyFinalProject-2B2\Business\bin\Debug\net7.0\Core.pdb
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\bin\Debug\net7.0\Business.deps.json
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\bin\Debug\net7.0\Business.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\bin\Debug\net7.0\Business.pdb
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\bin\Debug\net7.0\Core.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\bin\Debug\net7.0\DataAccess.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\bin\Debug\net7.0\Entities.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\bin\Debug\net7.0\DataAccess.pdb
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\bin\Debug\net7.0\Entities.pdb
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\bin\Debug\net7.0\Core.pdb
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\obj\Debug\net7.0\Business.csproj.AssemblyReference.cache
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\obj\Debug\net7.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\obj\Debug\net7.0\Business.AssemblyInfoInputs.cache
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\obj\Debug\net7.0\Business.AssemblyInfo.cs
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\obj\Debug\net7.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\obj\Debug\net7.0\Business.csproj.CopyComplete
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\obj\Debug\net7.0\Business.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\obj\Debug\net7.0\refint\Business.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\obj\Debug\net7.0\Business.pdb
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\Business\obj\Debug\net7.0\ref\Business.dll

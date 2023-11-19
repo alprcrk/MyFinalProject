@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Entities\\Entities.csproj": {}
+    "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Core\\Core.csproj": {
+    "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\ALPER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Core\\obj\\",
+        "outputPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Entities\\Entities.csproj": {
+    "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\ALPER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -101,8 +101,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Core\\Core.csproj"
+              "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Core\\Core.csproj"
               }
             }
           }

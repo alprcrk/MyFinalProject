@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HKf3SkTaHjf+rQEsn+VnuoDtRpZiDZq/GNWYbk516HraXtUcXWpv9r9BwvkptH0J5PQkLDGW7FTDTjQ5OYbgBA==",
+  "dgSpecHash": "ICrCy2YsdTN3zQA1fmWwXY9RhrLKPXagb73TpSWqM5oJwNhS41++0mSpec9LH4+VGb4ChlAtcuBZjYeU5dJDxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ALPER\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ALPER\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

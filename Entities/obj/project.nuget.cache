@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yan/EGFJrMets0pk681OtCbypCIIqpagS2FYrrRaFhQnqPJcdXba4mieDbV120B0orCoWBK2zdeJf8bOrwYzaA==",
+  "dgSpecHash": "3wTvDWgfKKko9no0XxFxVhQeI9oM/Eg66A0u31pXD2z1qYaNgl/vQ+dfmCO8UJX5hq8Qksf81IuSwhP6wJFaSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\TOBETO DERSLERİM\\MyFinalProject-2B2\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\ALPER\\OneDrive\\Masaüstü\\MyFinalProject-2B2\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ALPER\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ALPER\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
