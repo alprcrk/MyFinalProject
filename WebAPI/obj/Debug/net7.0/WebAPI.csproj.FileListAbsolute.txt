@@ -77,3 +77,9 @@ C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Bu
 C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\DataAccess.dll
 C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Business.pdb
 C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\DataAccess.pdb
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Autofac.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\FluentValidation.dll
