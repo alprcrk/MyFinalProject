@@ -21,7 +21,7 @@ internal class Program
         CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
 
         // Tüm kategorileri getirme işlemi
-        foreach (var category in categoryManager.GetAll())
+        foreach (var category in categoryManager.GetAll().Data)
         {
             Console.WriteLine(category.CategoryName);
         }
@@ -30,7 +30,8 @@ internal class Program
     private static void ProductTest()
     {
         // EfProductDal, Entity Framework kullanarak ürün verilerine erişim sağlayan bir sınıftır.
-        ProductManager productManager = new ProductManager(new EfProductDal());
+        ProductManager productManager = new ProductManager(new EfProductDal(),
+            new CategoryManager(new EfCategoryDal()));
 
         // Ürün detaylarını getirme işlemi
         var result = productManager.GetProductDetails();

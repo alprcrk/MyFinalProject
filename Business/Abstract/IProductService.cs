@@ -34,6 +34,8 @@ namespace Business.Abstract
         //    Parametre: Eklenen ürün (Product product)
         //    Geri dönüş tipi: IResult
         IResult Add(Product product);
+        IResult Update(Product product);
+
     }
 }
 
