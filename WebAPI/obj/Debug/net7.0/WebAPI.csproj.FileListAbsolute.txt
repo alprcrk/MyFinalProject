@@ -83,3 +83,7 @@ C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Ca
 C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ALPER\OneDrive\Masaüstü\MyFinalProject-2B2\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

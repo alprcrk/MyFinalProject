@@ -1,12 +1,20 @@
 using Autofac;
+using Autofac.Core;
 using Autofac.Extensions.DependencyInjection;
 using Business.Abstract;
+using Core.Extensions;
 using Business.Concrete;
 using Business.DependencyResolvers.Autofac;
+using Core.IoC;
+using Core.Utilities.Security.Encryption;
+using Core.Utilities.Security.JWT;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using System.ComponentModel;
 using WebAPI;
+using Core.DependencyResolvers;
 
 public class Program
 {
@@ -29,9 +37,31 @@ public class Program
         //builder.Services.AddSingleton<IProductService, ProductManager>(); //
         //builder.Services.AddSingleton<IProductDal, EfProductDal>();
 
+        builder.Services.AddSingleton<HttpContextAccessor, HttpContextAccessor>();
+
+        var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
+
+        builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidIssuer = tokenOptions.Issuer,
+                    ValidAudience = tokenOptions.Audience,
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
+                };
+            });
+            builder.Services.AddDependencyResolvers(new ICoreModule[]
+            {
+                new CoreModule()
+            });
+
+
         var app = builder.Build();
-
-
 
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
@@ -41,6 +71,8 @@ public class Program
         }
 
         app.UseHttpsRedirection();
+
+        app.UseAuthentication();
 
         app.UseAuthorization();
 

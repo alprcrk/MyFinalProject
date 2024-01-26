@@ -1,6 +1,8 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
@@ -35,24 +37,26 @@ namespace Business.Concrete
             _categoryService = categoryService;
         }
 
-        // Ürün ekleme işlemi
+        [SecuredOperation("product.add,admin")]
         [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Add(Product product)
         {
-           IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName),
-           CheckIfProductCountOfCategoryCorrect(product.CategoryId), CheckOfCategoryLimitExceded());
+            IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName),
+            CheckIfProductCountOfCategoryCorrect(product.CategoryId), CheckOfCategoryLimitExceded());
 
-           if (result != null)
+            if (result != null)
             {
                 return result;
 
-            } 
+            }
             _productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
 
         }
 
         // Tüm ürünleri getirme işlemi
+        [CacheAspect]
         public IDataResult<List<Product>> GetAll()
         {
             // Saat 22:00-23:00 arasında bakım yapılıyorsa hata sonucu döndürülüyor
@@ -72,6 +76,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
         }
 
+        [CacheAspect]
         // Belirli bir ürün ID'sine sahip ürünü getirme işlemi
         public IDataResult<Product> GetById(int productId)
         {
@@ -94,6 +99,7 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Update(Product product)
         {
 
@@ -128,7 +134,7 @@ namespace Business.Concrete
         private IResult CheckOfCategoryLimitExceded()
         {
             var result = _categoryService.GetAll();
-            if (result.Data.Count>15)
+            if (result.Data.Count > 15)
             {
                 return new ErrorResult(Messages.CategoryLimitExceded);
             }
